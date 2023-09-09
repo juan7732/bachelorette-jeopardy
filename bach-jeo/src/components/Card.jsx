@@ -10,6 +10,7 @@ const Card = ({ category = false, show = true, content, id = 1 }) => {
 
     const onClickHandler = () => {
         if (category) return;
+        if (!show) return;
         if(id === 31){
             navigate('/final')
         } else {
