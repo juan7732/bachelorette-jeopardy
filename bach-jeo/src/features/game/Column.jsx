@@ -2,8 +2,6 @@ import Card from '../../components/Card'
 import PropTypes from 'prop-types'
 
 const Column = ({category, questions}) => {
-    console.log(questions)
-    console.log(category)
 
     let cards = questions.map((question, index) => {
         return (

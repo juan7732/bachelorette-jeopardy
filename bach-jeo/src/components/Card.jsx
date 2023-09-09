@@ -17,9 +17,6 @@ const Card = ({ category = false, show = true, content, id = 1 }) => {
         }
     }
 
-
-    console.log(content)
-
     return (
         <div onClick={onClickHandler} className={`
         ${category ? categoryStyle : normalStyle} 
