@@ -1,0 +1,305 @@
+{
+  "$schema": "./schema/gameSchema.json",
+  "DoubleJeopardy": {
+    "question": "./question.mp4",
+    "answer": "./answer.mp4"
+  },
+  "Categories": [
+    {
+      "id": 1,
+      "Name": "Hannah"
+    },
+    {
+      "id": 2,
+      "Name": "Hannah Again"
+    },
+    {
+      "id": 3,
+      "Name": "Still Hannah"
+    },
+    {
+      "id": 4,
+      "Name": "You Guessed It ... Hannah"
+    },
+    {
+      "id": 5,
+      "Name": "Bet you're glad I didn't say Hannah (Surprise, It's Steven)"
+    },
+    {
+      "id": 6,
+      "Name": "Hannah & Steven"
+    }
+  ],
+  "Questions": [
+    {
+      "id": 1,
+      "question": "What was the name of the dog that Steven gave up once he started dating Hannah?",
+      "answer": "Addy",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 5,
+      "price": 200
+    },
+    {
+      "id": 2,
+      "question": "What was the name of the horse Hannah was riding when she broke her back?",
+      "answer": "Yeller",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 1,
+      "price": 200
+    },
+    {
+      "id": 3,
+      "question": "What sorority was Hannah in, in college?",
+      "answer": "Sigma Phi Lambda",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 1,
+      "price": 400
+    },
+    {
+      "id": 4,
+      "question": "What is Hannah's birth stone?",
+      "answer": "Sapphire",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 1,
+      "price": 600
+    },
+    {
+      "id": 5,
+      "question": "What item of Hannah's did Steven rescue from the dryer?",
+      "answer": "Pearl Earring",
+      "isDouble": true,
+      "hasBeenAsked": false,
+      "categoryId": 5,
+      "price": 1000
+    },
+    {
+      "id": 6,
+      "question": "When is the couple's dating anniversary?",
+      "answer": "August 2021",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 6,
+      "price": 200
+    },
+    {
+      "id": 7,
+      "question": "When did the couple get engaged?",
+      "answer": "November 2022",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 6,
+      "price": 400
+    },
+    {
+      "id": 8,
+      "question": "When Hannah first started dating Steven she was also dating another man, Mitch *gasp*… what sport did this man play?",
+      "answer": "Soccer",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 2,
+      "price": 200
+    },
+    {
+      "id": 9,
+      "question": "How many dogs did Hannah have before Hazel?",
+      "answer": "Apple, Millie, Nini Piña Colada (3)",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 2,
+      "price": 400
+    },
+    {
+      "id": 10,
+      "question": "Which role did Hannah play in the Lifehouse skit “everything” performed by her local youth group?",
+      "answer": "The Lead",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 1,
+      "price": 800
+    },
+    {
+      "id": 11,
+      "question": "Which animal did Hannah have a vast collection of in high school?",
+      "answer": "Ducks",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 1,
+      "price": 1000
+    },
+    {
+      "id": 12,
+      "question": "What track and field event did Hannah excel at in high school, quoted by Chad saying no one threw it less far than you”?",
+      "answer": "Shotput",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 2,
+      "price": 600
+    },
+    {
+      "id": 13,
+      "question": "What was the first major trip Hannah and Steven took together?",
+      "answer": "Disney land",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 6,
+      "price": 600
+    },
+    {
+      "id": 14,
+      "question": "What shape did Hannah unknowingly shave into Hazel's back?",
+      "answer": "A Penis",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 3,
+      "price": 200
+    },
+    {
+      "id": 15,
+      "question": "What is Hazel's nickname given to her by Hannah and Steven?",
+      "answer": "Muppet",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 6,
+      "price": 800
+    },
+    {
+      "id": 16,
+      "question": "What event did Hannah and Steven go to the night of their proposal?",
+      "answer": "The field of lights",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 6,
+      "price": 1000
+    },
+    {
+      "id": 17,
+      "question": "Which city, known for its night life and beach front properties, did Hannah and Steven travel to to look at engagement rings?",
+      "answer": "Miami",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 5,
+      "price": 400
+    },
+    {
+      "id": 18,
+      "question": "Which Avant Garde Jeweler is a “Bitch for Quality”?",
+      "answer": "Brian hooper the jeweler",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 4,
+      "price": 200
+    },
+    {
+      "id": 19,
+      "question": "Almost as hard as a diamond, which gem is the stone in Hannah's engagement ring?",
+      "answer": "Moissanite",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 3,
+      "price": 400
+    },
+    {
+      "id": 20,
+      "question": "What is Hannah's middle name",
+      "answer": "Louise",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 4,
+      "price": 400
+    },
+    {
+      "id": 21,
+      "question": "What is Steven's middle name?",
+      "answer": "Wagner",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 5,
+      "price": 600
+    },
+    {
+      "id": 22,
+      "question": "What is the correct spelling, spacing, and punctuation of Hannah's new last name? (No really she would like to know)",
+      "answer": "De Freitas",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 2,
+      "price": 800
+    },
+    {
+      "id": 23,
+      "question": "Though a natural blonde throughout her life, what color did Hannah have her hair died when she moved to Clifton?",
+      "answer": "red",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 2,
+        "price": 1000
+    },
+    {
+      "id": 24,
+      "question": "Which instrument(s) did Hannah teach herself to play?",
+      "answer": "Guitar and Ukulele",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 3,
+        "price": 600
+    },
+    {
+      "id": 25,
+      "question": "Which state did Hannah do her week lo by pack trip in horseback in?",
+      "answer": "Montana",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 3,
+      "price": 800
+    },
+    {
+      "id": 26,
+      "question": "Name one national park Hannah did stop at on her great American road trip?",
+      "answer": "(See Hannah)",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 4,
+        "price": 600
+    },
+    {
+      "id": 27,
+      "question": "Which company did Hannah have her first big girl job at?",
+      "answer": "Girl Scouts of America",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 4,
+        "price": 800
+    },
+    {
+      "id": 28,
+      "question": "Which animal chased Hannah and stormy on horseback?",
+      "answer": "Wildebeest",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 3,
+        "price": 1000
+    },
+    {
+      "id": 29,
+      "question": "How many different places has Hannah lived in the Austin area?",
+      "answer": "4",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 4,
+        "price": 1000
+    },
+    {
+      "id": 30,
+      "question": "What grade was Steven teaching when Hannah and him first started dating?",
+      "answer": "4th grade",
+      "isDouble": false,
+      "hasBeenAsked": false,
+      "categoryId": 5,
+      "price": 800
+    }
+  ]
+}

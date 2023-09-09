@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "FinalJeopardy": {
+            "type": "object",
+            "properties": {
+                "question": {
+                    "type": "string"
+                },
+                "answer": {
+                    "type": "string"
+                }
+            },
+            "required": ["question", "answer"]
+        },
+        "DoubleJeopardy": {
+            "type": "object",
+            "properties": {
+                "question": {
+                    "type": "string"
+                },
+                "answer": {
+                    "type": "string"
+                }
+            },
+            "required": ["question", "answer"]
+        },
+        "Categories": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "Name": {
+                        "type": "string"
+                    }
+                },
+                "required": ["id", "Name"]
+            }
+        },
+        "Questions": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "question": {
+                        "type": "string"
+                    },
+                    "answer": {
+                        "type": "string"
+                    },
+                    "price": {
+                        "type": "integer"
+                    },
+                    "categoryId": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "isDouble": {
+                        "type": "boolean"
+                    },
+                    "hasBeenAsked": {
+                        "type": "boolean"
+                    }
+                },
+                "required": ["id", "question", "answer", "price", "categoryId", "isDouble", "hasBeenAsked"]
+            }
+        }
+    },
+    "required": ["FinalJeopardy","DoubleJeopardy", "Categories", "Questions"]
+}
