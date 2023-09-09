@@ -11,6 +11,8 @@ import { store } from "./app/store";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Answer from './pages/Answer';
 import Question from './pages/Question';
+import FinalQuestion from './pages/FinalQuestion.jsx';
+import FinalAnswer from './pages/FinalAnswer.jsx';
 
 
 const router = createBrowserRouter([
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
   {
     path: '/answer/:id',
     element: <Answer />,
+  },
+  {
+    path: '/final',
+    element: <FinalQuestion />,
+  },
+  {
+    path: '/finalanswer',
+    element: <FinalAnswer />,
   }
 ])
 

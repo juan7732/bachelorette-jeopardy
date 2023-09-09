@@ -1,9 +1,11 @@
 import Column from './Column';
+import Card from '../../components/Card';
 import { useSelector } from 'react-redux';
-import { selectCategories, selectQuestions } from './gameSlice';
+import { selectCategories, selectQuestions, selectQuestionRemaining } from './gameSlice';
 
 const Board = () => {
     const categories = [...useSelector(selectCategories)];
+    const remaining = useSelector(selectQuestionRemaining);
     let sortedCategories = categories.sort(x => x.id);
 
     const questions = useSelector(selectQuestions);
@@ -17,7 +19,7 @@ const Board = () => {
 
     return (
         <div className='flex gap-1 p-1 bg-primary-bg w-[90%] h-4/5'>
-            {columns}
+            {remaining === 0 ? <Card content='Final Jeopardy' id={31}></Card> : columns}
         </div>
     );
 }

@@ -9,8 +9,14 @@ const Card = ({ category = false, show = true, content, id = 1 }) => {
     const showStyle = 'hidden'
 
     const onClickHandler = () => {
-        navigate(`/question/${id}`)
+        if (category) return;
+        if(id === 31){
+            navigate('/final')
+        } else {
+            navigate(`/question/${id}`)
+        }
     }
+
 
     console.log(content)
 
@@ -22,8 +28,9 @@ const Card = ({ category = false, show = true, content, id = 1 }) => {
         font-cat gap-6 w-full h-1/6 min-h-20
         bg-cat-bg
         mt-1
+        ${id === 31 ? 'h-full mt-0' :''}
         `}>
-            <h2 className={`${category ? 'text-lg tracking-wide px-2' : 'text-4xl [text-shadow:_2px_3px_2px_rgba(0_0_0_/_70%)]'} `}>{typeof content === 'number' ? '$' + content : content}</h2>
+            <h2 className={`${category ? 'sm:text-lg tracking-wide px-2' : 'sm:text-4xl [text-shadow:_2px_3px_2px_rgba(0_0_0_/_70%)]'}`}>{typeof content === 'number' ? '$' + content : content}</h2>
         </div>
     )
 }

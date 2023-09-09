@@ -14,18 +14,6 @@
             },
             "required": ["question", "answer"]
         },
-        "DoubleJeopardy": {
-            "type": "object",
-            "properties": {
-                "question": {
-                    "type": "string"
-                },
-                "answer": {
-                    "type": "string"
-                }
-            },
-            "required": ["question", "answer"]
-        },
         "Categories": {
             "type": "array",
             "items": {
@@ -75,5 +63,5 @@
             }
         }
     },
-    "required": ["FinalJeopardy","DoubleJeopardy", "Categories", "Questions"]
+    "required": ["FinalJeopardy", "Categories", "Questions"]
 }

@@ -1,8 +1,8 @@
 {
   "$schema": "./schema/gameSchema.json",
-  "DoubleJeopardy": {
-    "question": "./question.mp4",
-    "answer": "./answer.mp4"
+  "FinalJeopardy": {
+    "question": "Which city, known for its night life and beach front properties, did Hannah and Steven travel to to look at engagement rings?",
+    "answer": "Miami"
   },
   "Categories": [
     {
@@ -132,7 +132,7 @@
     },
     {
       "id": 12,
-      "question": "What track and field event did Hannah excel at in high school, quoted by Chad saying no one threw it less far than you”?",
+      "question": "What track and field event did Hannah excel at in high school, quoted by Chad saying 'No one threw it less far than you'?",
       "answer": "Shotput",
       "isDouble": false,
       "hasBeenAsked": false,
@@ -177,8 +177,8 @@
     },
     {
       "id": 17,
-      "question": "Which city, known for its night life and beach front properties, did Hannah and Steven travel to to look at engagement rings?",
-      "answer": "Miami",
+      "question": "What Nationality is Steven",
+      "answer": "Brazilian",
       "isDouble": false,
       "hasBeenAsked": false,
       "categoryId": 5,
@@ -231,7 +231,7 @@
     },
     {
       "id": 23,
-      "question": "Though a natural blonde throughout her life, what color did Hannah have her hair died when she moved to Clifton?",
+      "question": "Though a natural blonde throughout her life, what color did Hannah have her hair dyed when she moved to Clifton?",
       "answer": "red",
       "isDouble": false,
       "hasBeenAsked": false,
