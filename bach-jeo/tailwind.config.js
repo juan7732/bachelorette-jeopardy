@@ -19,6 +19,9 @@ export default {
         "cat-text": "#FBB05C",
         "cat-bg": "#001197",
         "primary-bg": "#090514"
+      },
+      cursor: {
+        fancy: "url('/images/hazel_cursor.png'), default"
       }
     },
   },

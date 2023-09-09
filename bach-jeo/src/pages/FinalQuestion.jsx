@@ -13,7 +13,7 @@ const FinalQuestion = () => {
           </h1>
         <Link
         to={`/finalanswer`}
-        className="text-2xl border border-cat-text rounded-2xl w-1/2 mx-auto"
+        className="py-2 text-2xl border border-cat-text rounded-2xl w-1/2 mx-auto"
       >
         Go To Answer
       </Link>

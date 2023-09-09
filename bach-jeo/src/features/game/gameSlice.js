@@ -7,11 +7,18 @@ const gameSlice = createSlice({
         ...initialState
     },
     reducers: {
-
+        markAsAsked: (state, action) => {
+            const question = state.Questions.find(q => q.id === action.payload);
+            if (question) {
+                question.hasBeenAsked = true;
+            }
+        },
+        resetGame: () => initialState,
     }
 })
 
 // export actions
+export const { markAsAsked, resetGame } = gameSlice.actions;
 
 // export selectors
 export const selectCategories = state => state.game.Categories;
